@@ -9,3 +9,10 @@
 - django-admin startproject ProjectName
 - cd ProjectName
 - python manage.py runserver
+
+python -m venv venv
+venv\Scripts\activate
+pip install django
+django-admin startproject FlightProject
+cd FlightProject
+python manage.py runserver
