@@ -5,7 +5,8 @@
 ### Choose any name for your project . 
 
 #### After creating a virtual environment and activating it:
-- pip install django
+-venv
+ pip install django
 - django-admin startproject ProjectName
 - cd ProjectName
 - python manage.py runserver
